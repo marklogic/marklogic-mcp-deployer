@@ -83,7 +83,7 @@ setup for MCP clients, and troubleshooting — see `MARKLOGIC-MCP-QUICKSTART.md`
 
 ## Documentation
 
-- [MarkLogic Retrieval API docs](https://docs.progress.com/bundle/marklogic-mcp)
+- [MarkLogic MCP Server and Retrieval API documentation](https://docs.progress.com/bundle/marklogic-mcp)
 
 ## Support
 
