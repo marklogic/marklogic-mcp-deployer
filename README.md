@@ -14,7 +14,7 @@ Docker Hub.
 | Artifact | Where to get it | What it's for |
 |---|---|---|
 | `marklogic-mcp-<version>.zip` | [Releases](../../releases) (this repo) | `mra-deployer/` (installs MRA into your MarkLogic Server) + `examples/marklogic-mcp/` (sample `.env`/`config.yaml`/`docker-compose.yaml`) |
-| MCP server image | [Docker Hub: `marklogic/marklogic-mcp`](https://hub.docker.com/r/progressofficial/marklogic-mcp-server) | The prebuilt MarkLogic MCP server container |
+| MCP server image | [Docker Hub: `progressofficial/marklogic-mcp-server`](https://hub.docker.com/r/progressofficial/marklogic-mcp-server) | The prebuilt MarkLogic MCP server container |
 
 ## Prerequisites
 
@@ -46,8 +46,10 @@ Docker Hub.
 3. **Pull the MCP server image**
 
    ```bash
-   docker pull progressofficial/marklogic-mcp-server:latest
+   docker pull progressofficial/marklogic-mcp-server:<version>
    ```
+
+   See [Image Tags](https://hub.docker.com/r/progressofficial/marklogic-mcp-server/tags) for the current list of available images and tags.
 
 4. **Configure and start the MCP server**
 
@@ -81,7 +83,7 @@ setup for MCP clients, and troubleshooting — see `MARKLOGIC-MCP-QUICKSTART.md`
 
 ## Documentation
 
-- [MarkLogic Retrieval API docs](http://docs.progress.com/bundle/marklogic-mcp)
+- [MarkLogic Retrieval API docs](https://docs.progress.com/bundle/marklogic-mcp)
 
 ## Support
 
